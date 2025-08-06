@@ -13,7 +13,7 @@ if (API_KEY === getenv('TELEGRAM_BOT_TOKEN')) {
 
 
 // Get the webhook URL (replace with your actual domain)
-$webhook_url = 'https://instabot-knx1.onrender.com/webhook.php';
+$webhook_url = 'https://api.telegram.org/bot7826143063:AAGnVepdsZdJ359mJKg8ebL4rdK2VsoV_Tk/setWebhook?url=https://instabot-knx1.onrender.com/webhook.php';
 
 // If running locally, you might use ngrok or similar
 if (isset($_GET['local'])) {
