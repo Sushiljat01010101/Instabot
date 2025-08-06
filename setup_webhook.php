@@ -7,7 +7,7 @@
 require_once 'bot.php';
 
 // Check if bot token is configured
-if (API_KEY === '7826143063:AAGnVepdsZdJ359mJKg8ebL4rdK2VsoV_Tk') {
+if (API_KEY === getenv('TELEGRAM_BOT_TOKEN')  {
     die("❌ Please set your TELEGRAM_BOT_TOKEN environment variable first!\n");
 }
 
