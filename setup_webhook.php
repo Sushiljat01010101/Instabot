@@ -7,12 +7,12 @@
 require_once 'bot.php';
 
 // Check if bot token is configured
-if (API_KEY === 'YOUR_TOKEN_HERE') {
+if (API_KEY === '7826143063:AAGnVepdsZdJ359mJKg8ebL4rdK2VsoV_Tk') {
     die("❌ Please set your TELEGRAM_BOT_TOKEN environment variable first!\n");
 }
 
 // Get the webhook URL (replace with your actual domain)
-$webhook_url = 'https://your-replit-app-name.replit.app/webhook.php';
+$webhook_url = 'https://instabot-knx1.onrender.com/webhook.php';
 
 // If running locally, you might use ngrok or similar
 if (isset($_GET['local'])) {
