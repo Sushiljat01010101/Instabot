@@ -7,9 +7,10 @@
 require_once 'bot.php';
 
 // Check if bot token is configured
-if (API_KEY === getenv('TELEGRAM_BOT_TOKEN')  {
+if (API_KEY === getenv('TELEGRAM_BOT_TOKEN')) {
     die("❌ Please set your TELEGRAM_BOT_TOKEN environment variable first!\n");
 }
+
 
 // Get the webhook URL (replace with your actual domain)
 $webhook_url = 'https://instabot-knx1.onrender.com/webhook.php';
