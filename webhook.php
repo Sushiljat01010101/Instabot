@@ -135,7 +135,7 @@ function sendWelcomeMessage($chat_id, $name, $from_id) {
         'inline_keyboard' => [
             [
                 ['text' => '👑 Bot Owner', 'url' => 'https://t.me/Glllaxy'],
-                ['text' => '🌐 Our Channel', 'url' => 'https://t.me/+oTUyrmFwQsE4YTdl']
+                ['text' => '🌐 Our Channel', 'url' => 'https://t.me/dailyXbots']
             ]
         ]
     ];
